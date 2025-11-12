@@ -1,31 +1,30 @@
+# APDP — Lab Exercises
+
+## Introduction
+This repository contains lab exercises for the Applied Programming and Design Principles (APDP) course. The labs focus on object-oriented programming (OOP), SOLID principles, and hands-on software design using C# and Visual Studio.
 
 ---
 
-## 🧠 README for Main APDP Project
+## Tools and environment
+- **IDE:** Visual Studio Community 2022
+- **Language:** C# (some labs may use C++)
+- **Framework:** .NET 6.0 / .NET Framework
+- **Operating system:** Windows 10/11
 
-```markdown
-# APDP - Course Project
+---
 
-## 📖 Overview
-This is the main project for the **Applied Programming and Design Principles (APDP)** course. It demonstrates the integration of OOP, design patterns, and database management in a real-world application.
+## Lab contents
+- **Lab1.1 / Lab1.2:** Basic OOP concepts and class design
+- **Lab2:** Encapsulation and abstraction
+- **Lab3:** Inheritance and polymorphism
+- **Lab4:** Interfaces and dependency injection
+- **Lab5:** SOLID principles (archived as .rar)
+- **Lab7_SRP_OCP:** Single Responsibility & Open/Closed Principles
+- **Lab8_LSPISP:** Liskov Substitution & Interface Segregation Principles
 
-## 🛠 Technologies Used
-- **IDE**: Visual Studio Community 2022
-- **Language**: C#
-- **Framework**: .NET 6.0
-- **Database**: SQL Server (via Entity Framework Core)
-- **ORM**: Entity Framework Core with Code-First Migrations
+---
 
-## 📂 Project Structure
-- `Models/`: Entity classes representing database tables
-- `Data/Migrations/`: EF Core migration files for database schema
-- `Controllers/`: Business logic and data access
-- `Views/`: UI components (if using MVC)
-- `appsettings.json`: Configuration file including database connection string
-
-## 🧩 Database Setup
-1. Open `appsettings.json` and update the connection string:
-   ```json
-   "ConnectionStrings": {
-     "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=SIMS_DB;Trusted_Connection=True;"
-   }
+## Getting started
+1. **Clone repository:**
+   ```bash
+   git clone https://github.com/StevenDuy/LabAPDP.git
